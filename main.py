@@ -2,7 +2,6 @@ import streamlit as st
 import pandas as pd
 import pickle
 import numpy as np
-from sqlalchemy import create_engine
 
 st.write("""Pet Disease Prediction App""")
 st.sidebar.header('Symtomps Parameter')
